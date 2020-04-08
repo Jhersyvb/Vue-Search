@@ -16,7 +16,7 @@ export default new Vuex.Store({
     SET_QUERY(state, query) {
       state.filter.query = query
     },
-    SER_AVAILABLE(state) {
+    SET_AVAILABLE(state) {
       state.filter.available = !state.filter.available
     }
   },
