@@ -1,4 +1,8 @@
-# vuex-search
+# Buscador con Vuejs 2 + Vuex utilizando Getters
+
+![Videos disponibles](screenshots/movies-available.png)
+
+![Videos no disponibles](screenshots/movies-not-available.png)
 
 ## Project setup
 ```

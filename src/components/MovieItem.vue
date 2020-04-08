@@ -3,7 +3,7 @@
     <div class="card">
       <div class="card-header text-center">
         <h5 class="card-title">{{ movie.title }}</h5>
-        <h6 class="card-subtitle">Available: {{ movie.available ? '✔️' : '❌' }}</h6>
+        <h6 class="card-subtitle">¿Está disponible? {{ movie.available ? '✔️' : '❌' }}</h6>
       </div>
       <div class="card-body">
         <div class="card-text">{{ movie.description | excerpt(150) }}</div>
